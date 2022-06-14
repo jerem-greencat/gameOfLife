@@ -1,0 +1,28 @@
+
+td{
+
+
+    border: grey solid 2px;
+    width: 15px;
+    height: 15px;
+   
+    
+}
+
+table{
+
+    border-collapse: collapse;
+}
+
+.click{
+
+    background-color: black;
+}
+
+#p{
+
+
+    float: right;
+    color:red;
+    font-size: 50px;
+}
