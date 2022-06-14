@@ -5,19 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game Of Life</title>
 
     <script type="text/javascript" src="script.js" async></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
+    <a href="rules.html">Voir les règles</a>
 
-    <button id="start"> > START </button>
-    <p id="p"> </p>
-    <button id="stop"> X STOP </button>
-    <button id="reset"> @ RESET </button>
-    <input type="range" id="vitesse" name="vitesse" min="0" max="10" value="5"/>
+    <div id="controllers">
+
+        <button id="start"> START </button>
+        <button id="stop"> STOP </button>
+        <button id="reset"> RESET </button>
+        <div>
+            <label>Speed :</label>        
+            <input type="range" id="vitesse" name="vitesse" min="0" max="10" value="5"/>
+        </div>
+        <p id="p"> </p>
+
+    </div>
+
 
 
 </body>

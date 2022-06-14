@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Of Life</title>
+
+    <script type="text/javascript" src="script.js" async></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <h1> Game of life : Règles.</h1>
+    <h2>Le jeu de la vie s'articule autour de 3 règles simples pouvant mener à une infinité de possibilités.</h2>
+
+    <div>
+        <div>            
+            <p>
+                Règle  1 : si une cellule a exactement trois voisines vivantes, alors elle sera vivante à l’étape suivante.
+                C’est le cas de la cellule verte dans la configuration ci-dessous.
+            </p>
+            <img src="assets/rule1.png" alt="Règle 1 Game of Life">
+        </div>
+        <div>
+            <p>
+                Règle 2 : si une cellule a exactement deux voisines vivantes, elle restera dans son état actuel à l’étape suivante.
+                Dans le cas de la configuration ci-dessous, la cellule située entre les deux cellules vivantes restera morte à l’étape suivante ;
+            </p>
+            <img src="assets/rule2.png" alt="Règle 2 Game Of Life">
+        </div>
+        <div>
+            <p>
+                Règle 3 : si une cellule a strictement moins de deux ou strictement plus de trois voisines vivantes, elle sera morte à l’étape suivante.
+                C’est le cas de la cellule rouge dans la configuration ci-dessous.
+            </p>
+            <img src="assets/rule3.png" alt="Règle 3 Game of Life">
+        </div>
+
+    </div>
+
+</body>
+</html>
